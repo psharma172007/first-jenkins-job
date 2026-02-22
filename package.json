@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {  
+    "tests": "npx playwright test",  
     "tests:headless": "npx playwright test",
     "tests:headed": "npx playwright test --headed",
     "test:specific:headless": "npx playwright test --grep fileName.spec.js",
