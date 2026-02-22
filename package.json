@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {  
-    "tests": "npx playwright test",  
-    "tests:headless": "npx playwright test",
+    "tests" : "npx playwright test",
     "tests:headed": "npx playwright test --headed",
+    "tests:headless": "npx playwright test",    
     "test:specific:headless": "npx playwright test --grep fileName.spec.js",
     "test:specific:headed": "npx playwright test --headed --grep fileName.spec.js",
     "test:tag:headless": "npx playwright test --grep @wip",
